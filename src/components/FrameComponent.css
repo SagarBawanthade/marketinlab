@@ -1,0 +1,234 @@
+.line5 {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-gray-200);
+}
+
+.connectwithustoupscaleyourbusi {
+  width: 100rem;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  left: 20rem;
+}
+
+.connect-button {
+  width: 717px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+}
+
+.frame8 {
+  height: 34px;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-gray-300);
+}
+
+.wallet1 {
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 12px);
+  right: -64px;
+  line-height: 24px;
+  font-weight: 600;
+  z-index: 1;
+}
+
+.wallet-logo1 {
+  width: 89px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.phone-input-frame3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-5xl);
+}
+
+.updates-right-to {
+  position: relative;
+  font-size: var(--font-size-base-2);
+  line-height: 28.74px;
+}
+
+.update-inbox-line {
+  width: 948px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+.privacy-policy {
+  flex: 1;
+  position: relative;
+  line-height: 32px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 83px;
+}
+
+.cookies-policy {
+  flex: 1;
+  display: inline-block;
+  min-width: 86px;
+}
+
+.cookies-policy,
+.terms-of-use {
+  position: relative;
+  line-height: 32px;
+  font-weight: 600;
+}
+
+.text-input-field {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+}
+
+.hover9,
+.text-frame2 {
+  width: 100%;
+  border-radius: 13.47px;
+}
+
+.text-frame2 {
+  border: 0;
+  outline: 0;
+  background-color: var(--color-darkslategray);
+  height: 44.9px;
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-6xs) var(--padding-8xl) var(--padding-5xs);
+  box-sizing: border-box;
+  font-family: var(--body-18);
+  font-size: var(--body-18-size);
+  color: var(--color-gray-400);
+  min-width: 175px;
+}
+
+.hover9 {
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  bottom: -0.3px;
+  left: 0.2px;
+  background-color: var(--color-plum);
+}
+
+.cta8 {
+  position: relative;
+  font-size: var(--body-18-size);
+  line-height: 32px;
+  font-family: var(--body-18);
+  color: var(--color-darkslategray);
+  text-align: center;
+  z-index: 1;
+}
+
+.secondary-cta-11 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-6xs) var(--padding-42xl) var(--padding-5xs) var(--padding-39xl);
+  background-color: var(--color-plum);
+  height: 45px;
+  border-radius: 13.47px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  position: relative;
+  gap: 8.98px;
+}
+
+.secondary-cta-11:hover {
+  background-color: var(--color-cornflowerblue);
+}
+
+.text-frame1 {
+  width: 450px;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+}
+
+.line-parent,
+.policy-info-frame,
+.text-frame1 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+
+.policy-info-frame {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--body-18-size);
+}
+
+.line-parent {
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-mini);
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-2xl);
+  color: var(--white);
+  font-family: var(--body-18);
+}
+
+@media screen and (max-width: 1050px) {
+  .policy-info-frame {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .connectwithustoupscaleyourbusi {
+    font-size: var(--font-size-mid);
+  }
+
+  .wallet1 {
+    font-size: var(--font-size-lgi);
+    line-height: 19px;
+  }
+
+  .text-frame1,
+  .text-input-field {
+    flex-wrap: wrap;
+  }
+}

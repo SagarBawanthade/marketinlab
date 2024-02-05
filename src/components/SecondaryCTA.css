@@ -1,0 +1,289 @@
+.discoverourimpactonwatchhub4 {
+  height: 63px;
+  position: relative;
+  display: inline-block;
+}
+
+.child-frame-a {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-2xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.blank-line,
+.our-ideal-client,
+.we-work-with,
+.while-we-can {
+  margin: 0;
+}
+
+.we-work-with-container {
+  width: 50rem;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+
+.lets-work-together-button-child {
+  height: 37.9px;
+  width: 86.9px;
+  position: relative;
+  border-radius: 8.29px;
+  background-color: var(--color-mediumslateblue-200);
+  display: none;
+}
+
+.fintech {
+  position: relative;
+  font-size: var(--font-size-mid);
+  font-weight: 600;
+  font-family: var(--body-18);
+  color: var(--white);
+  text-align: center;
+  z-index: 1;
+}
+
+.lets-work-together-button,
+.lets-work-together-button-item {
+  border-radius: 8.29px;
+  background-color: var(--color-mediumslateblue-200);
+}
+
+.lets-work-together-button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-6xs) var(--padding-mini) var(--padding-6xs) var(--padding-xs);
+  height: 38px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.lets-work-together-button1:hover,
+.lets-work-together-button2:hover,
+.lets-work-together-button3:hover,
+.lets-work-together-button:hover {
+  background-color: var(--color-mediumslateblue-100);
+}
+
+.lets-work-together-button-item {
+  height: 39.9px;
+  width: 86.9px;
+  position: relative;
+  display: none;
+}
+
+.saas {
+  height: 23px;
+  position: relative;
+  font-size: var(--font-size-mid);
+  font-weight: 600;
+  font-family: var(--body-18);
+  color: var(--white);
+  text-align: center;
+  display: inline-block;
+  z-index: 1;
+}
+
+.lets-work-together-button1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) var(--padding-5xl) var(--padding-5xs) var(--padding-xl);
+  background-color: var(--color-mediumslateblue-200);
+  height: 40px;
+  border-radius: 8.29px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.untitled-design-6 {
+  height: 352.8px;
+  width: 55.2px;
+  position: absolute;
+  margin: 0 !important;
+  top: -196px;
+  left: -54px;
+  object-fit: cover;
+}
+
+.lets-work-together-button-inner {
+  height: 40.5px;
+  width: 136.6px;
+  position: relative;
+  border-radius: 8.29px;
+  background-color: var(--color-mediumslateblue-200);
+  display: none;
+}
+
+.e-commerce {
+  position: relative;
+  font-size: var(--font-size-mid);
+  font-weight: 600;
+  font-family: var(--body-18);
+  color: var(--white);
+  text-align: center;
+  z-index: 1;
+}
+
+.lets-work-together-button2 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) var(--padding-smi) var(--padding-3xs) var(--padding-4xs);
+  background-color: var(--color-mediumslateblue-200);
+  border-radius: 8.29px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.text-j {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  position: relative;
+}
+
+.rectangle-div {
+  height: 37.2px;
+  width: 256.1px;
+  position: relative;
+  border-radius: 8.29px;
+  background-color: var(--color-mediumslateblue-200);
+  display: none;
+}
+
+.small-medium {
+  position: relative;
+  font-size: var(--font-size-mid);
+  font-weight: 600;
+  font-family: var(--body-18);
+  color: var(--white);
+  text-align: center;
+  z-index: 1;
+}
+
+.lets-work-together-button3 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-7xs) var(--padding-8xs) var(--padding-5xs) var(--padding-7xs);
+  background-color: var(--color-mediumslateblue-200);
+  border-radius: 8.29px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 1;
+}
+
+.line-f,
+.text-i {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.text-i {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-9xl);
+}
+
+.line-f {
+  gap: var(--gap-13xl);
+}
+
+.frame-c,
+.frame-e,
+.line-f {
+  display: flex;
+  align-items: flex-start;
+}
+
+.frame-e {
+  position: relative;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-mid) var(--padding-12xs) 0 0;
+  right: 100px;
+}
+
+.frame-c {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 100%;
+  font-size: var(--font-size-lg-6);
+}
+
+.parent-frame-x,
+.secondary-c-t-a {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+.parent-frame-x {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-16xl);
+}
+
+.secondary-c-t-a {
+  margin-top: 25px;
+  width: 94%;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-12xl) 0 var(--padding-xl);
+  box-sizing: border-box;
+  min-height: 441px;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-23xl-3);
+  color: var(--white);
+  font-family: var(--body-18);
+}
+
+@media screen and (max-width: 1050px) {
+  .discoverourimpactonwatchhub4 {
+    font-size: var(--font-size-15xl);
+  }
+
+  .frame-c {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .parent-frame-x {
+    gap: var(--gap-16xl);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .discoverourimpactonwatchhub4 {
+    font-size: var(--font-size-6xl);
+  }
+
+  .line-f {
+    gap: var(--gap-13xl);
+  }
+}

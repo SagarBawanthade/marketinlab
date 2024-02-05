@@ -1,0 +1,359 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.frame,
+.wallet {
+  position: absolute;
+}
+
+.frame {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-gray-300);
+}
+
+.wallet {
+  top: 14.71%;
+  left: 5.62%;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.wallet-logo {
+  width: 89px;
+  height: 34px;
+  position: relative;
+  display: none;
+}
+
+.untitled-design-1 {
+  height: 48px;
+  width: 220px;
+  position: relative;
+  object-fit: cover;
+}
+
+.hover {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-mini);
+  background-color: #741cdf;
+}
+
+.log-in {
+  position: relative;
+  font-size: var(--body-18-size);
+  line-height: 32px;
+  font-family: var(--body-18);
+  color: var(--white);
+  text-align: center;
+  z-index: 1;
+}
+
+.secondary-cta-1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs) var(--padding-13xl) var(--padding-4xs) var(--padding-18xl);
+  background-color: #6914e1;
+  border-radius: var(--br-mini);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: var(--gap-3xs);
+  white-space: nowrap;
+}
+
+.secondary-cta-1:hover {
+  background-color: #8f3bff;
+}
+
+.discover-our-impact-frame,
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+
+.discover-our-impact-frame {
+  width: 100%;
+  height: 74px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+
+.work {
+  color: var(--color-mediumslateblue-200);
+}
+
+.discoverourimpactonwatchhub {
+  width: 208px;
+  height: 63px;
+  position: relative;
+  display: inline-block;
+}
+
+.explore-our-portfolio {
+  align-self: stretch;
+  height: 84px;
+  position: relative;
+  font-size: var(--font-size-lg-7);
+  text-align: center;
+  display: inline-block;
+}
+
+.call-to-action-label {
+  width: 698px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 18px;
+  max-width: 100%;
+}
+
+.pointer-highlight {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+
+.folio,
+.tech-team {
+  margin: 0;
+}
+
+.folio {
+  color: var(--white);
+}
+
+.tech-team-folio-container {
+  width: 312px;
+  height: 166px;
+  position: relative;
+  font-size: var(--font-size-36xl-1);
+  display: inline-block;
+  color: var(--color-mediumslateblue-200);
+}
+
+.industry-selector-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xl);
+  max-width: 100%;
+}
+
+.hover1 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-mini);
+  background-color: var(--yellow);
+}
+
+.cta {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-size: var(--body-18-size);
+  line-height: 32px;
+  font-family: var(--body-18);
+  color: var(--color-darkslategray);
+  white-space: pre-wrap;
+  text-align: center;
+  z-index: 1;
+}
+
+.primary-cta {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs) var(--padding-18xl) var(--padding-4xs) var(--padding-17xl);
+  background-color: var(--yellow);
+  width: 175px;
+  height: 50px;
+  border-radius: var(--br-mini);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-3xs);
+  white-space: nowrap;
+}
+
+.primary-cta:hover {
+  background-color: var(--color-darkkhaki);
+}
+
+.website-domain-field {
+  width: 908px;
+  align-items: flex-start;
+  gap: var(--gap-70xl);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+
+.call-to-action-button,
+.cta-1280px-main,
+.home,
+.website-domain-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.cta-1280px-main {
+  align-self: stretch;
+  height: 600px;
+  background-color: var(--color-gray-100);
+  overflow-y: auto;
+  flex-shrink: 0;
+  align-items: flex-start;
+  padding: var(--padding-16xl) 101px 0 81px;
+  box-sizing: border-box;
+  gap: var(--gap-220xl);
+  max-width: 100%;
+}
+
+.call-to-action-button,
+.home {
+  align-items: center;
+  text-align: left;
+  color: var(--white);
+  font-family: var(--body-18);
+}
+
+.call-to-action-button {
+  width: 100%;
+  gap: var(--gap-12xl);
+  max-width: 100%;
+  flex-shrink: 0;
+  font-size: var(--font-size-22xl-7);
+}
+
+/*.home {
+  position: relative;
+  background-color: var(--color-gray-100);
+  width: 100%;
+  overflow: auto;
+  padding: var(--padding-3xl) 0 var(--padding-21xl);
+  box-sizing: border-box;
+  gap: var(--gap-62xl);
+  letter-spacing: normal;
+  font-size: var(--font-size-5xl);
+}*/
+
+.home {
+  position: relative;
+  background-color: var(--color-gray-100);
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  /* Set margin to 0 to remove any default spacing */
+  overflow: auto;
+  padding: var(--padding-3xl) 0 var(--padding-21xl);
+  box-sizing: border-box;
+  gap: var(--gap-62xl);
+  letter-spacing: normal;
+  font-size: var(--font-size-5xl);
+}
+
+@media screen and (max-width: 1050px) {
+  .discoverourimpactonwatchhub {
+    font-size: var(--font-size-14xl);
+  }
+
+  .tech-team-folio-container {
+    font-size: var(--font-size-25xl);
+  }
+
+  .website-domain-field {
+    gap: var(--gap-70xl);
+  }
+
+  .cta-1280px-main {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .cta-1280px-main {
+    gap: var(--gap-220xl);
+    padding-left: var(--padding-21xl);
+    padding-right: 50px;
+    box-sizing: border-box;
+  }
+
+  .call-to-action-button {
+    gap: var(--gap-12xl);
+  }
+
+  .home {
+    gap: var(--gap-62xl);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .wallet {
+    font-size: var(--font-size-lgi);
+    line-height: 19px;
+  }
+
+  .discoverourimpactonwatchhub {
+    font-size: var(--font-size-6xl);
+  }
+
+  .tech-team-folio-container {
+    font-size: var(--font-size-14xl);
+  }
+
+  .website-domain-field {
+    gap: var(--gap-70xl);
+  }
+
+  .cta-1280px-main {
+    gap: var(--gap-220xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+
+  .home {
+    gap: var(--gap-62xl);
+  }
+}

@@ -1,0 +1,249 @@
+.discoverourimpactonwatchhub7,
+.have-questions-about,
+.phone1 {
+  position: relative;
+  display: inline-block;
+  font-family: var(--body-18);
+  color: var(--white);
+}
+.discoverourimpactonwatchhub7 {
+  height: 82px;
+  font-size: var(--font-size-35xl-4);
+  text-align: left;
+  max-width: 100%;
+}
+.have-questions-about,
+.phone1 {
+  text-align: center;
+}
+.have-questions-about {
+  align-self: stretch;
+  height: 62px;
+  font-size: var(--font-size-xl-7);
+}
+.phone1 {
+  height: 22px;
+  font-size: var(--font-size-mini-5);
+}
+.phone-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs);
+}
+.rectangle15-5 {
+  height: 37.1px;
+  width: 568px;
+  position: relative;
+  border-radius: 7.27px;
+  background-color: var(--white);
+  display: none;
+  max-width: 100%;
+}
+.sortdown-icon {
+  height: 17.5px;
+  width: 15.3px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.yourphonenumber {
+  width: 121px;
+  border: 0;
+  outline: 0;
+  display: inline-block;
+  font-family: var(--body-18);
+  font-size: var(--font-size-2xs-9);
+  background-color: transparent;
+  height: 16px;
+  position: relative;
+  font-weight: 700;
+  color: var(--color-gainsboro);
+  text-align: center;
+  z-index: 1;
+}
+.frame-parent3,
+.rectangle15-5-parent {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectangle15-5-parent {
+  border-radius: 7.27px;
+  background-color: var(--white);
+  flex-direction: row;
+  align-items: flex-end;
+  padding: var(--padding-4xs) var(--padding-8xl) var(--padding-2xs);
+  box-sizing: border-box;
+  gap: var(--gap-7xs);
+}
+.frame-parent3 {
+  height: 85px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-3xs);
+}
+.companyname {
+  position: relative;
+  font-size: var(--font-size-mini-5);
+  font-family: var(--body-18);
+  color: var(--white);
+  text-align: center;
+}
+.companyname-parent,
+.frame-child6 {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.frame-child6 {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: var(--white);
+  height: 37px;
+  border-radius: 7.27px;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-3xs) var(--padding-7xs) var(--padding-2xs);
+  box-sizing: border-box;
+  font-family: var(--body-18);
+  font-weight: 700;
+  font-size: var(--font-size-2xs-9);
+  color: var(--color-gainsboro);
+  min-width: 250px;
+}
+.companyname-parent {
+  height: 84px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.companydomain {
+  position: relative;
+  font-size: var(--font-size-mini-5);
+  font-family: var(--body-18);
+  color: var(--white);
+  text-align: center;
+}
+.companydomain-parent,
+.frame-child7 {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.frame-child7 {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: var(--white);
+  height: 37px;
+  border-radius: 7.27px;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-3xs) var(--padding-5xs) var(--padding-2xs);
+  box-sizing: border-box;
+  font-family: var(--body-18);
+  font-weight: 700;
+  font-size: var(--font-size-2xs-9);
+  color: var(--color-gainsboro);
+  min-width: 250px;
+}
+.companydomain-parent {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-6xs);
+}
+.contact-form-header,
+.question-form-frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.question-form-frame {
+  width: 568px;
+  height: 427px;
+  align-items: flex-start;
+  gap: var(--gap-7xs);
+}
+.contact-form-header {
+  align-self: stretch;
+  align-items: center;
+  gap: var(--gap-31xl);
+  min-height: 561px;
+}
+.hover8 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: -0.5px;
+  bottom: 0;
+  left: 0.5px;
+  border-radius: var(--br-mini);
+  background-color: var(--yellow);
+}
+.cta7 {
+  position: relative;
+  font-size: var(--body-18-size);
+  line-height: 32px;
+  font-family: var(--body-18);
+  color: var(--color-darkslategray);
+  white-space: pre-wrap;
+  text-align: center;
+  z-index: 1;
+}
+.primary-cta7 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs) var(--padding-12xl) var(--padding-4xs)
+    var(--padding-17xl);
+  background-color: var(--yellow);
+  border-radius: var(--br-mini);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: var(--gap-3xs);
+  white-space: nowrap;
+}
+.primary-cta7:hover {
+  background-color: var(--color-darkkhaki);
+}
+.privacy-policy-cookies-policy {
+  margin: 0;
+  width: 972px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-31xl);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+@media screen and (max-width: 1050px) {
+  .discoverourimpactonwatchhub7 {
+    font-size: var(--font-size-25xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .contact-form-header,
+  .privacy-policy-cookies-policy {
+    gap: var(--gap-31xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .discoverourimpactonwatchhub7 {
+    font-size: var(--font-size-14xl);
+  }
+  .have-questions-about {
+    font-size: var(--font-size-mid);
+  }
+}

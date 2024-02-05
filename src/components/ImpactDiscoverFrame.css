@@ -1,0 +1,118 @@
+.folio2,
+.marketing {
+  margin: 0;
+}
+.folio2 {
+  color: var(--white);
+}
+.marketing-folio {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.hover6 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-mini);
+  background-color: var(--yellow);
+}
+.cta5 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-size: var(--body-18-size);
+  line-height: 32px;
+  font-family: var(--body-18);
+  color: var(--color-darkslategray);
+  white-space: pre-wrap;
+  text-align: center;
+  z-index: 1;
+}
+.primary-cta5 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs) var(--padding-18xl) var(--padding-4xs)
+    var(--padding-17xl);
+  background-color: var(--yellow);
+  width: 175px;
+  height: 50px;
+  border-radius: var(--br-mini);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-3xs);
+  white-space: nowrap;
+}
+.primary-cta5:hover {
+  background-color: var(--color-darkkhaki);
+}
+.contact-phone-frame,
+.market-lab-logo-tag {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contact-phone-frame {
+  align-self: stretch;
+  flex: 1;
+  gap: var(--gap-70xl);
+}
+.market-lab-logo-tag {
+  height: 311px;
+  width: 293px;
+  padding: var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+  min-width: 293px;
+}
+.screenshot-2023-11-06-at-5511 {
+  height: 301.9px;
+  width: 483px;
+  position: relative;
+  border-radius: 11.51px;
+  object-fit: cover;
+  max-width: 100%;
+}
+.impact-discover-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-36xl-1);
+  color: var(--color-mediumslateblue-200);
+  font-family: var(--body-18);
+}
+@media screen and (max-width: 1050px) {
+  .marketing-folio {
+    font-size: var(--font-size-25xl);
+  }
+  .market-lab-logo-tag,
+  .screenshot-2023-11-06-at-5511 {
+    flex: 1;
+  }
+  .impact-discover-frame {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .marketing-folio {
+    font-size: var(--font-size-14xl);
+  }
+  .contact-phone-frame {
+    gap: var(--gap-70xl);
+  }
+}
